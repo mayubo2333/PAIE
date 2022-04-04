@@ -1,0 +1,139 @@
+artifactexistence.damagedestroy.damage:instrument artifact place damager
+artifactexistence.damagedestroy.destroy:artifact instrument place destroyer
+artifactexistence.damagedestroy.n/a:artifact damagerdestroyer place instrument
+conflict.attack.airstrikemissilestrike:instrument target place attacker
+conflict.attack.biologicalchemicalpoisonattack:target attacker instrument place
+conflict.attack.bombing:instrument target attacker place
+conflict.attack.firearmattack:instrument target place attacker
+conflict.attack.hanging:attacker target instrument place
+conflict.attack.invade:place attacker target instrument
+conflict.attack.n/a:target instrument attacker place
+conflict.attack.selfdirectedbattle:place instrument attacker target
+conflict.attack.setfire:place target attacker instrument
+conflict.attack.stabbing:target attacker instrument place
+conflict.attack.stealrobhijack:place instrument attacker target artifact
+conflict.attack.strangling:instrument place target attacker
+conflict.demonstrate.marchprotestpoliticalgathering:demonstrator place
+conflict.demonstrate.n/a:demonstrator place
+conflict.yield.n/a:place recipient yielder
+conflict.yield.retreat:destination origin retreater
+conflict.yield.surrender:place recipient surrenderer
+contact.collaborate.correspondence:place participant ( participant )
+contact.collaborate.meet:participant ( participant ) place
+contact.collaborate.n/a:participant ( participant ) place
+contact.commandorder.broadcast:communicator place recipient
+contact.commandorder.correspondence:recipient communicator place
+contact.commandorder.meet:place communicator recipient
+contact.commandorder.n/a:place communicator recipient
+contact.commitmentpromiseexpressintent.broadcast:recipient place communicator
+contact.commitmentpromiseexpressintent.correspondence:place communicator recipient
+contact.commitmentpromiseexpressintent.meet:place recipient communicator
+contact.commitmentpromiseexpressintent.n/a:recipient communicator place
+contact.discussion.correspondence:participant ( participant ) place
+contact.discussion.meet:participant ( participant ) place
+contact.discussion.n/a:participant ( participant ) place
+contact.funeralvigil.meet:place deceased participant ( participant )
+contact.funeralvigil.n/a:deceased place participant ( participant )
+contact.mediastatement.broadcast:recipient communicator place
+contact.mediastatement.n/a:place communicator recipient
+contact.negotiate.correspondence:place participant ( participant )
+contact.negotiate.meet:participant ( participant ) place
+contact.negotiate.n/a:participant ( participant ) place
+contact.prevarication.broadcast:communicator place recipient
+contact.prevarication.correspondence:recipient place communicator
+contact.prevarication.meet:recipient place communicator
+contact.prevarication.n/a:place recipient communicator
+contact.publicstatementinperson.broadcast:place recipient communicator
+contact.publicstatementinperson.n/a:place recipient communicator
+contact.requestadvise.broadcast:recipient communicator place
+contact.requestadvise.correspondence:place recipient communicator
+contact.requestadvise.meet:communicator place recipient
+contact.requestadvise.n/a:recipient communicator place
+contact.threatencoerce.broadcast:communicator recipient place
+contact.threatencoerce.correspondence:recipient place communicator
+contact.threatencoerce.meet:recipient communicator place
+contact.threatencoerce.n/a:place communicator recipient
+disaster.accidentcrash.accidentcrash:place crashobject vehicle driverpassenger
+disaster.fireexplosion.fireexplosion:place instrument fireexplosionobject
+government.agreements.acceptagreementcontractceasefire:participant ( participant ) place
+government.agreements.n/a:place participant ( participant )
+government.agreements.rejectnullifyagreementcontractceasefire:rejecternullifier place otherparticipant
+government.agreements.violateagreement:violator place otherparticipant
+government.formation.mergegpe:place participant ( participant )
+government.formation.n/a:place gpe founder
+government.formation.startgpe:place gpe founder
+government.legislate.legislate:governmentbody place law
+government.spy.spy:observedentity place beneficiary spy
+government.vote.castvote:ballot ( ballot ) candidate voter place result
+government.vote.n/a:result candidate ballot place voter
+government.vote.violationspreventvote:candidate voter place ballot preventer
+inspection.sensoryobserve.inspectpeopleorganization:inspector place inspectedentity
+inspection.sensoryobserve.monitorelection:monitoredentity place monitor
+inspection.sensoryobserve.n/a:place observer observedentity
+inspection.sensoryobserve.physicalinvestigateinspect:inspector place inspectedentity
+justice.arrestjaildetain.arrestjaildetain:crime jailer detainee place
+justice.initiatejudicialprocess.chargeindict:defendant crime place prosecutor judgecourt
+justice.initiatejudicialprocess.n/a:prosecutor defendant crime place judgecourt
+justice.initiatejudicialprocess.trialhearing:prosecutor crime judgecourt place defendant
+justice.investigate.investigatecrime:investigator crime place defendant
+justice.investigate.n/a:investigator place defendant
+justice.judicialconsequences.convict:place judgecourt defendant crime
+justice.judicialconsequences.execute:defendant executioner crime place
+justice.judicialconsequences.extradite:extraditer crime destination defendant origin
+justice.judicialconsequences.n/a:defendant judgecourt crime place
+life.die.deathcausedbyviolentevents:instrument killer victim place
+life.die.n/a:victim place
+life.die.nonviolentdeath:victim place
+life.injure.illnessdegradationhungerthirst:place victim
+life.injure.illnessdegradationphysical:victim
+life.injure.injurycausedbyviolentevents:instrument injurer victim place
+life.injure.n/a:injurer victim place
+manufacture.artifact.build:artifact manufacturer instrument place
+manufacture.artifact.createintellectualproperty:instrument artifact manufacturer place
+manufacture.artifact.createmanufacture:manufacturer artifact instrument place
+manufacture.artifact.n/a:place manufacturer artifact instrument
+movement.transportartifact.bringcarryunload:origin destination artifact vehicle transporter
+movement.transportartifact.disperseseparate:artifact vehicle origin destination transporter
+movement.transportartifact.fall:artifact destination origin
+movement.transportartifact.grantentry:artifact destination origin transporter
+movement.transportartifact.hide:artifact vehicle ( vehicle ) transporter origin hidingplace
+movement.transportartifact.n/a:destination artifact transporter origin vehicle
+movement.transportartifact.nonviolentthrowlaunch:transporter artifact origin vehicle destination
+movement.transportartifact.prevententry:destination transporter origin artifact preventer
+movement.transportartifact.preventexit:transporter destination artifact preventer origin
+movement.transportartifact.receiveimport:destination origin transporter artifact vehicle
+movement.transportartifact.sendsupplyexport:artifact vehicle origin transporter destination
+movement.transportartifact.smuggleextract:origin destination artifact vehicle transporter
+movement.transportperson.bringcarryunload:vehicle transporter passenger destination origin
+movement.transportperson.disperseseparate:origin destination passenger vehicle transporter
+movement.transportperson.evacuationrescue:destination transporter passenger origin vehicle
+movement.transportperson.fall:origin destination passenger
+movement.transportperson.grantentryasylum:passenger destination transporter granter origin
+movement.transportperson.hide:hidingplace transporter passenger origin vehicle
+movement.transportperson.n/a:transporter origin destination passenger vehicle
+movement.transportperson.prevententry:origin transporter destination preventer passenger
+movement.transportperson.preventexit:transporter preventer passenger origin destination
+movement.transportperson.selfmotion:origin transporter destination
+movement.transportperson.smuggleextract:destination vehicle passenger origin transporter
+personnel.elect.n/a:voter candidate place
+personnel.elect.winelection:voter place candidate
+personnel.endposition.firinglayoff:employee placeofemployment place
+personnel.endposition.n/a:placeofemployment employee place
+personnel.endposition.quitretire:employee place placeofemployment
+personnel.startposition.hiring:employee placeofemployment place
+personnel.startposition.n/a:employee placeofemployment place
+transaction.transaction.embargosanction:place preventer giver recipient artifactmoney
+transaction.transaction.giftgrantprovideaid:beneficiary place giver recipient
+transaction.transaction.n/a:place beneficiary participant ( participant )
+transaction.transaction.transfercontrol:recipient beneficiary giver place territoryorfacility
+transaction.transfermoney.borrowlend:recipient beneficiary place giver money ( money )
+transaction.transfermoney.embargosanction:money giver recipient preventer place
+transaction.transfermoney.giftgrantprovideaid:giver beneficiary place money ( money ) recipient
+transaction.transfermoney.n/a:money ( money ) giver place beneficiary recipient
+transaction.transfermoney.payforservice:place giver money ( money ) recipient beneficiary
+transaction.transfermoney.purchase:recipient beneficiary money ( money ) place giver
+transaction.transferownership.borrowlend:recipient beneficiary artifact giver place
+transaction.transferownership.embargosanction:recipient giver preventer place artifact
+transaction.transferownership.giftgrantprovideaid:artifact place giver beneficiary recipient
+transaction.transferownership.n/a:place beneficiary recipient artifact giver
+transaction.transferownership.purchase:giver recipient beneficiary artifact place

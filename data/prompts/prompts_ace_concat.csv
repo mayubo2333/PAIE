@@ -1,0 +1,33 @@
+Business.Declare-Bankruptcy:Org ( Org ) Place ( Place )
+Business.End-Org:Place ( Place ) Org ( Org )
+Business.Merge-Org:Org ( Org ) Place ( Place )
+Business.Start-Org:Org ( Org ) Place ( Place ) Agent ( Agent )
+Conflict.Attack:Place ( Place ) Target ( Target ) Attacker ( Attacker ) Instrument ( Instrument )
+Conflict.Demonstrate:Entity ( Entity ) Place ( Place )
+Contact.Meet:Entity ( Entity ) ( Entity ) ( Entity ) Place ( Place )
+Contact.Phone-Write:Entity ( Entity ) ( Entity ) ( Entity ) Place ( Place )
+Justice.Acquit:Defendant ( Defendant ) Adjudicator ( Adjudicator ) Crime Place ( Place )
+Justice.Appeal:Adjudicator ( Adjudicator ) Plaintiff ( Plaintiff ) Defendant ( Defendant ) Place ( Place )
+Justice.Arrest-Jail:Person ( Person ) Agent ( Agent ) Crime Place ( Place )
+Justice.Charge-Indict:Adjudicator ( Adjudicator ) Defendant ( Defendant ) Crime Prosecutor ( Prosecutor ) Place ( Place )
+Justice.Convict:Defendant ( Defendant ) Adjudicator ( Adjudicator ) Crime Place ( Place )
+Justice.Execute:Place ( Place ) Agent ( Agent ) Person Crime
+Justice.Extradite:Origin Destination Agent ( Agent ) Person Crime
+Justice.Fine:Entity ( Entity ) Adjudicator ( Adjudicator ) Place ( Place ) Money Crime
+Justice.Pardon:Adjudicator ( Adjudicator ) Place ( Place ) Defendant ( Defendant ) Crime
+Justice.Release-Parole:Entity ( Entity ) Person ( Person ) Place ( Place ) Crime
+Justice.Sentence:Defendant ( Defendant ) Adjudicator ( Adjudicator ) Place ( Place ) Crime Sentence
+Justice.Sue:Plaintiff ( Plaintiff ) Defendant ( Defendant ) Adjudicator ( Adjudicator ) Place ( Place ) Crime
+Justice.Trial-Hearing:Defendant ( Defendant ) Place ( Place ) Adjudicator ( Adjudicator ) Prosecutor Crime
+Life.Be-Born:Place ( Place ) Person ( Person )
+Life.Die:Victim ( Victim ) Agent ( Agent ) Place ( Place ) Instrument ( Instrument )
+Life.Divorce:Person ( Person ) Place ( Place )
+Life.Injure:Victim ( Victim ) Agent ( Agent ) Place ( Place ) Instrument ( Instrument )
+Life.Marry:Person ( Person ) Place ( Place )
+Movement.Transport:Vehicle ( Vehicle ) Artifact ( Artifact ) Destination ( Destination ) ( Destination ) Agent ( Agent ) Origin ( Origin ) Price
+Personnel.Elect:Person ( Person ) Entity ( Entity ) Position Place ( Place )
+Personnel.End-Position:Entity ( Entity ) Person ( Person ) Place ( Place ) Position
+Personnel.Nominate:Person Agent ( Agent ) Position Place ( Place )
+Personnel.Start-Position:Person ( Person ) Entity ( Entity ) Place ( Place ) Position
+Transaction.Transfer-Money:Giver ( Giver ) Recipient ( Recipient ) Beneficiary ( Beneficiary ) Money Place ( Place )
+Transaction.Transfer-Ownership:Buyer ( Buyer ) Artifact ( Artifact ) Seller Place ( Place ) Beneficiary ( Beneficiary ) Price

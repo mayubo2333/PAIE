@@ -1,0 +1,56 @@
+ArtifactExistence.DamageDestroyDisableDismantle.Damage:prompt start, Damager ( and Damager ) damaged Artifact ( and Artifact ) using Instrument ( and Instrument ) in Place ( and Place )  ,end
+ArtifactExistence.DamageDestroyDisableDismantle.Destroy:prompt start, Destroyer ( and Destroyer ) destroyed Artifact ( and Artifact ) using Instrument ( and Instrument ) in Place ( and Place ) ,end
+ArtifactExistence.DamageDestroyDisableDismantle.DisableDefuse:prompt start, Disabler ( and Disabler ) disabled or defused Artifact ( and Artifact ) using Instrument ( and Instrument ) in Place ( and Place ) ,end
+ArtifactExistence.DamageDestroyDisableDismantle.Dismantle:prompt start, Dismantler ( and Dismantler ) dismantled Artifact ( and Artifact ) using Instrument ( and Instrument ) from Components ( and Components ) in Place ( and Place ) ,end
+ArtifactExistence.DamageDestroyDisableDismantle.Unspecified:prompt start, DamagerDestroyer ( and DamagerDestroyer ) damaged or destroyed Artifact ( and Artifact ) using Instrument ( and Instrument ) in Place ( and Place ) ,end
+ArtifactExistence.ManufactureAssemble.Unspecified:prompt start, ManufacturerAssembler ( and ManufacturerAssembler ) manufactured or assembled or produced Artifact ( and Artifact ) from Components ( and Components ) using Instrument ( and Instrument ) at Place ( and Place ) ,end
+Cognitive.IdentifyCategorize.Unspecified:prompt start, Identifier ( and Identifier ) identified IdentifiedObject ( and IdentifiedObject ) as IdentifiedRole ( and IdentifiedRole ) at Place ( and Place ) ,end
+Cognitive.Inspection.SensoryObserve:prompt start, Observer ( and Observer ) observed ObservedEntity ( and ObservedEntity ) using Instrument ( and Instrument ) in Place ( and Place ) ,end
+Cognitive.Research.Unspecified:prompt start, Researcher ( and Researcher ) researched Subject ( and Subject ) using Means ( and Means ) at Place ( and Place ) ,end
+Cognitive.TeachingTrainingLearning.Unspecified:prompt start, TeacherTrainer ( and TeacherTrainer ) taught FieldOfKnowledge ( and FieldOfKnowledge ) to Learner ( and Learner ) using Means ( and Means ) at Institution ( and Institution ) in Place ( and Place ) ,end
+Conflict.Attack.DetonateExplode:prompt start, Attacker ( and Attacker ) detonated or exploded ExplosiveDevice ( and ExplosiveDevice ) using Instrument ( and Instrument ) to attack Target ( and Target ) at Place ( and Place ) ,end
+Conflict.Attack.Unspecified:prompt start, Attacker ( and Attacker ) attacked Target ( and Target ) using Instrument ( and Instrument ) at Place ( and Place ) ,end
+Conflict.Defeat.Unspecified:prompt start, Victor ( and Victor ) Defeated in ConflictOrElection at Place ( and Place ) ,end
+Conflict.Demonstrate.DemonstrateWithViolence:prompt start, Demonstrator ( and Demonstrator ) was in a demonstration involving violence for Topic ( and Topic ) with VisualDisplay against Target ( and Target ) at Place ( and Place ), with potential involvement of Regulator police or military ,end
+Conflict.Demonstrate.Unspecified:prompt start, Demonstrator ( and Demonstrator ) was in a demonstration for Topic ( and Topic ) with VisualDisplay against Target ( and Target ) at Place ( and Place ), with potential involvement of Regulator police or military ,end
+Contact.Contact.Broadcast:prompt start, Communicator ( and Communicator ) communicated to Recipient ( and Recipient ) about Topic ( and Topic ) using Instrument ( and Instrument ) at Place ( and Place ) (one-way communication) ,end
+Contact.Contact.Correspondence:prompt start, Participant ( and Participant ) communicated remotely with Participant ( and Participant ) about Topic ( and Topic ) using Instrument ( and Instrument ) at Place ( and Place ) ,end
+Contact.Contact.Meet:prompt start, Participant ( and Participant ) met face-to-face with Participant ( and Participant ) about Topic ( and Topic ) at Place ( and Place ) ,end
+Contact.Contact.Unspecified:prompt start, Participant ( and Participant ) communicated with Participant ( and Participant ) about Topic ( and Topic ) at Place ( and Place ) (document does not specify in person or not, or one-way or not) ,end
+Contact.Prevarication.Unspecified:prompt start, Communicator ( and Communicator ) communicated with Recipient ( and Recipient ) about Topic ( and Topic ) at Place ( and Place ) (document does not specify in person or not, or one-way or not) ,end
+Contact.RequestCommand.Unspecified:prompt start, Communicator ( and Communicator ) communicated with Recipient ( and Recipient ) about Topic ( and Topic ) at Place ( and Place ) (document does not specify in person or not, or one-way or not) ,end
+Contact.RequestCommand.Broadcast:prompt start, Communicator ( and Communicator ) communicated with Recipient ( and Recipient ) about Topic ( and Topic ) at Place ( and Place ) (document does not specify in person or not, or one-way or not) ,end
+Contact.RequestCommand.Correspondence:prompt start, Communicator ( and Communicator ) communicated with Recipient ( and Recipient ) about Topic ( and Topic ) at Place ( and Place ) (document does not specify in person or not, or one-way or not) ,end
+Contact.RequestCommand.Meet:prompt start, Communicator ( and Communicator ) communicated with Recipient ( and Recipient ) about Topic ( and Topic ) at Place ( and Place ) (document does not specify in person or not, or one-way or not) ,end
+Contact.ThreatenCoerce.Unspecified:prompt start, Communicator ( and Communicator ) communicated with Recipient ( and Recipient ) about Topic ( and Topic ) at Place ( and Place ) (document does not specify in person or not, or one-way or not) ,end
+Contact.ThreatenCoerce.Broadcast:prompt start, Communicator ( and Communicator ) communicated with Recipient ( and Recipient ) about Topic ( and Topic ) at Place ( and Place ) (document does not specify in person or not, or one-way or not) ,end
+Contact.ThreatenCoerce.Correspondence:prompt start, Communicator ( and Communicator ) communicated with Recipient ( and Recipient ) about Topic ( and Topic ) at Place ( and Place ) (document does not specify in person or not, or one-way or not) ,end
+Control.ImpedeInterfereWith.Unspecified:prompt start, Impeder ( and Impeder ) impeded or interfered with ImpededEvent at Place ( and Place ) ,end
+Disaster.Crash.Unspecified:prompt start, DriverPassenger in Vehicle ( and Vehicle ) crashed into CrashObject ( and CrashObject ) at Place ( and Place ) ,end
+Disaster.DiseaseOutbreak.Unspecified:prompt start, Disease ( and Disease ) broke out among Victim ( and Victim ) or population at Place ( and Place ) ,end
+Disaster.FireExplosion.Unspecified:prompt start, FireExplosionObject caught fire or exploded from Instrument ( and Instrument ) at Place ( and Place ) ,end
+GenericCrime.GenericCrime.GenericCrime:prompt start, Perpetrator committed a crime against Victim ( and Victim ) at Place ( and Place ) ,end
+Justice.Acquit.Unspecified:prompt start, JudgeCourt acquitted Defendant ( and Defendant ) of Crime ( and Crime ) in Place ( and Place ) ,end
+Justice.ArrestJailDetain.Unspecified:prompt start, Jailer arrested or jailed Detainee for Crime ( and Crime ) at Place ( and Place ) ,end
+Justice.ChargeIndict.Unspecified:prompt start, Prosecutor charged or indicted Defendant ( and Defendant ) before JudgeCourt for Crime ( and Crime ) in Place ( and Place ) ,end
+Justice.Convict.Unspecified:prompt start, JudgeCourt convicted Defendant ( and Defendant ) of Crime ( and Crime ) in Place ( and Place ) ,end
+Justice.InvestigateCrime.Unspecified:prompt start, Investigator investigated Defendant ( and Defendant ) for Crime ( and Crime ) in Place ( and Place ) ,end
+Justice.ReleaseParole.Unspecified:prompt start, JudgeCourt released or paroled Defendant ( and Defendant ) from Crime ( and Crime ) in Place ( and Place ) ,end
+Justice.Sentence.Unspecified:prompt start, JudgeCourt sentenced Defendant ( and Defendant ) for Crime ( and Crime ) to Sentence in Place ( and Place ) ,end
+Justice.TrialHearing.Unspecified:prompt start, Prosecutor tried Defendant ( and Defendant ) before JudgeCourt for Crime ( and Crime ) in Place ( and Place ) ,end
+Life.Consume.Unspecified:prompt start, ConsumingEntity consumed ConsumedThing at Place ( and Place ) ,end
+Life.Die.Unspecified:prompt start, Victim ( and Victim ) died at Place ( and Place ) from MedicalIssue, killed by Killer ,end
+Life.Illness.Unspecified:prompt start, Victim ( and Victim ) has Disease ( and Disease ) sickness or illness at Place ( and Place ), deliberately infected by DeliberateInjurer ,end
+Life.Infect.Unspecified:prompt start, Victim ( and Victim ) was infected with InfectingAgent from Source at Place ( and Place ) ,end
+Life.Injure.Unspecified:prompt start, Victim ( and Victim ) was injured by Injurer using Instrument ( and Instrument ) in BodyPart with MedicalCondition at Place ( and Place ) ,end
+Medical.Diagnosis.Unspecified:prompt start, Treater diagnosed Patient with SymptomSign for MedicalCondition at Place ( and Place ) ,end
+Medical.Intervention.Unspecified:prompt start, Treater treated Patient for MedicalIssue with Instrument ( and Instrument ) Means ( and Means ) at Place ( and Place ) ,end
+Medical.Vaccinate.Unspecified:prompt start, Treater vaccinated Patient via VaccineMethod for VaccineTarget at Place ( and Place ) ,end
+Movement.Transportation.Evacuation:prompt start, Transporter transported PassengerArtifact in Vehicle ( and Vehicle ) from Origin Place ( and Origin Place ) to Destination Place ( and Destination Place )  ,end
+Movement.Transportation.IllegalTransportation:prompt start, Transporter illegally transported PassengerArtifact in Vehicle ( and Vehicle ) from Origin Place ( and Origin Place )  to Destination Place ( and Destination Place ) ,end
+Movement.Transportation.PreventPassage:prompt start, Preventer prevents Transporter from entering Destination Place ( and Destination Place )  from Origin Place ( and Origin Place ) to transport PassengerArtifact using Vehicle ( and Vehicle ) ,end
+Movement.Transportation.Unspecified:prompt start, Transporter transported PassengerArtifact in Vehicle ( and Vehicle ) from Origin Place ( and Origin Place ) to Destination Place ( and Destination Place ) ,end
+Personnel.EndPosition.Unspecified:prompt start, Employee stopped working in Position at PlaceOfEmployment organization in Place ( and Place ) ,end
+Personnel.StartPosition.Unspecified:prompt start, Employee started working in Position at PlaceOfEmployment organization in Place ( and Place ) ,end
+Transaction.Donation.Unspecified:prompt start, Giver gave ArtifactMoney to Recipient ( and Recipient ) for the benefit of Beneficiary ( and Beneficiary ) at Place ( and Place ) ,end
+Transaction.ExchangeBuySell.Unspecified:prompt start, Giver bought, sold, or traded AcquiredEntity to Recipient ( and Recipient ) in exchange for PaymentBarter for the benefit of Beneficiary ( and Beneficiary ) at Place ( and Place ) ,end

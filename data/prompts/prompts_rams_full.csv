@@ -1,0 +1,149 @@
+artifactexistence.artifactfailure.mechanicalfailure:prompt start, mechanicalartifact failed due to instrument at place ,end
+artifactexistence.damagedestroy.n/a:prompt start, damagerdestroyer damaged or destroyed artifact using instrument in place ,end
+artifactexistence.damagedestroy.damage:prompt start, damager damaged artifact using instrument in place ,end
+artifactexistence.damagedestroy.destroy:prompt start, destroyer destroyed artifact using instrument in place ,end
+artifactexistence.shortage.shortage:prompt start, experiencer experienced a shortage of supply at place ,end
+conflict.attack.n/a:prompt start, attacker attacked target using instrument at place ,end
+conflict.attack.airstrikemissilestrike:prompt start, attacker attacked target using instrument at place ,end
+conflict.attack.biologicalchemicalpoisonattack:prompt start, attacker attacked target using instrument at place ,end
+conflict.attack.bombing:prompt start, attacker attacked target using instrument at place ,end
+conflict.attack.firearmattack:prompt start, attacker attacked target using instrument at place ,end
+conflict.attack.hanging:prompt start, attacker attacked target using instrument at place ,end
+conflict.attack.invade:prompt start, attacker attacked target using instrument at place ,end
+conflict.attack.selfdirectedbattle:prompt start, attacker attacked target using instrument at place ,end
+conflict.attack.setfire:prompt start, attacker attacked target using instrument at place ,end
+conflict.attack.stabbing:prompt start, attacker attacked target using instrument at place ,end
+conflict.attack.stealrobhijack:prompt start, attacker attacked target using instrument at place, in order to take artifact ,end
+conflict.attack.strangling:prompt start, attacker attacked target using instrument at place ,end
+conflict.coup.coup:prompt start, deposedentity was deposed by deposingentity at place ,end
+conflict.demonstrate.n/a:prompt start, demonstrator was in a demonstration at place ,end
+conflict.demonstrate.marchprotestpoliticalgathering:prompt start, demonstrator was in a demonstration or protest at place ,end
+conflict.yield.n/a:prompt start, yielder yielded to recipient at place ,end
+conflict.yield.retreat:prompt start, retreater retreated from origin place to destination place ,end
+conflict.yield.surrender:prompt start, surrenderer surrendered to recipient at place ,end
+contact.collaborate.n/a:prompt start, participant communicated with participant at place ,end
+contact.collaborate.correspondence:prompt start, participant communicated remotely with participant at place ,end
+contact.collaborate.meet:prompt start, participant met face-to-face with participant at place ,end
+contact.commandorder.n/a:prompt start, communicator communicated with recipient about topic at place ,end
+contact.commandorder.broadcast:prompt start, communicator communicated to recipient about topic at place (one-way communication) ,end
+contact.commandorder.correspondence:prompt start, communicator communicated remotely with recipient about topic at place ,end
+contact.commandorder.meet:prompt start, communicator met face-to-face with recipient about topic at place ,end
+contact.commitmentpromiseexpressintent.n/a:prompt start, communicator communicated with recipient about topic at place ,end
+contact.commitmentpromiseexpressintent.broadcast:prompt start, communicator communicated to recipient about topic at place (one-way communication) ,end
+contact.commitmentpromiseexpressintent.correspondence:prompt start, communicator communicated remotely with recipient about topic at place ,end
+contact.commitmentpromiseexpressintent.meet:prompt start, communicator met face-to-face with recipient about topic at place ,end
+contact.discussion.n/a:prompt start, participant communicated with participant at place ,end
+contact.discussion.correspondence:prompt start, participant communicated remotely with participant at place ,end
+contact.discussion.meet:prompt start, participant met face-to-face with participant at place ,end
+contact.funeralvigil.n/a:prompt start, participant communicated with participant during a funeral or vigil for deceased at place ,end
+contact.funeralvigil.meet:prompt start, participant met face-to-face with participant during a funeral or vigil for deceased at place ,end
+contact.mediastatement.n/a:prompt start, communicator communicated with recipient at place ,end
+contact.mediastatement.broadcast:prompt start, communicator communicated to recipient at place (one-way communication) ,end
+contact.negotiate.n/a:prompt start, participant communicated with participant about topic at place ,end
+contact.negotiate.correspondence:prompt start, participant communicated remotely with participant about topic at place ,end
+contact.negotiate.meet:prompt start, participant met face-to-face with participant about topic at place ,end
+contact.prevarication.n/a:prompt start, communicator communicated with recipient about topic at place ,end
+contact.prevarication.broadcast:prompt start, communicator communicated to recipient about topic at place (one-way communication) ,end
+contact.prevarication.correspondence:prompt start, communicator communicated remotely with recipient about topic at place ,end
+contact.prevarication.meet:prompt start, communicator met face-to-face with recipient about topic at place ,end
+contact.publicstatementinperson.n/a:prompt start, communicator communicated with recipient at place ,end
+contact.publicstatementinperson.broadcast:prompt start, communicator communicated to recipient at place (one-way communication) ,end
+contact.requestadvise.n/a:prompt start, communicator communicated with recipient about topic at place ,end
+contact.requestadvise.broadcast:prompt start, communicator communicated to recipient about topic at place (one-way communication) ,end
+contact.requestadvise.correspondence:prompt start, communicator communicated remotely with recipient about topic at place ,end
+contact.requestadvise.meet:prompt start, communicator met face-to-face with recipient about topic at place ,end
+contact.threatencoerce.n/a:prompt start, communicator communicated with recipient about topic at place ,end
+contact.threatencoerce.broadcast:prompt start, communicator communicated to recipient about topic at place (one-way communication) ,end
+contact.threatencoerce.correspondence:prompt start, communicator communicated remotely with recipient about topic at place ,end
+contact.threatencoerce.meet:prompt start, communicator met face-to-face with recipient about topic at place ,end
+disaster.accidentcrash.accidentcrash:prompt start, driverpassenger in vehicle crashed into crashobject at place ,end
+disaster.diseaseoutbreak.diseaseoutbreak:prompt start, disease broke out among victim or population at place ,end
+disaster.fireexplosion.fireexplosion:prompt start, fireexplosionobject caught fire or exploded from instrument at place ,end
+genericcrime.genericcrime.genericcrime:prompt start, perpetrator committed a crime against victim at place ,end
+government.agreements.n/a:prompt start, participant and participant signed an agreement in place ,end
+government.agreements.acceptagreementcontractceasefire:prompt start, participant and participant signed an agreement in place ,end
+government.agreements.rejectnullifyagreementcontractceasefire:prompt start, rejecternullifier rejected or nullified an agreement with otherparticipant in place ,end
+government.agreements.violateagreement:prompt start, violator violated an agreement with otherparticipant in place ,end
+government.convene.convene:prompt start, convener convened convenedthing at place ,end
+government.formation.n/a:prompt start, gpe was formed by founder in place ,end
+government.formation.mergegpe:prompt start, participant merged with participant at place ,end
+government.formation.startgpe:prompt start, gpe was started by founder in place ,end
+government.legislate.legislate:prompt start, governmentbody legislature enacted law in place ,end
+government.spy.spy:prompt start, spy spied on observedentity to the benefit of beneficiary in place ,end
+government.vote.n/a:prompt start, voter voted for candidate on ballot with result in place ,end
+government.vote.castvote:prompt start, voter voted for candidate on ballot ballot with result in place ,end
+government.vote.violationspreventvote:prompt start, preventer prevented voter from voting for candidate on ballot in place ,end
+inspection.sensoryobserve.n/a:prompt start, observer observed observedentity in place ,end
+inspection.sensoryobserve.inspectpeopleorganization:prompt start, inspector inspected inspectedentity in place ,end
+inspection.sensoryobserve.monitorelection:prompt start, monitor monitored monitoredentity taking part in an election in place ,end
+inspection.sensoryobserve.physicalinvestigateinspect:prompt start, inspector inspected inspectedentity in place ,end
+inspection.targetaimat.targetaimat:prompt start, targeter physically targeted target with instrument at place ,end
+justice.arrestjaildetain.arrestjaildetain:prompt start, jailer arrested or jailed detainee for crime at place ,end
+justice.initiatejudicialprocess.n/a:prompt start, prosecutor initiated judicial process pertaining to defendant before judgecourt court or judge for crime in place ,end
+justice.initiatejudicialprocess.chargeindict:prompt start, prosecutor charged or indicted defendant before judgecourt court or judge for crime in place ,end
+justice.initiatejudicialprocess.trialhearing:prompt start, prosecutor tried defendant before judgecourt court or judge for crime in place ,end
+justice.investigate.n/a:prompt start, investigator investigated defendant in place ,end
+justice.investigate.investigatecrime:prompt start, investigator investigated defendant for crime in place ,end
+justice.judicialconsequences.n/a:prompt start, judgecourt court or judge decided consequences of crime, committed by defendant, in place ,end
+justice.judicialconsequences.convict:prompt start, judgecourt court or judge convicted defendant of crime in place ,end
+justice.judicialconsequences.execute:prompt start, executioner executed defendant for crime in place ,end
+justice.judicialconsequences.extradite:prompt start, extraditer extradited defendant for crime from origin place to destination place ,end
+life.die.n/a:prompt start, victim died at place from medicalissue, killed by killer ,end
+life.die.deathcausedbyviolentevents:prompt start, killer killed victim using instrument or medicalissue at place ,end
+life.die.nonviolentdeath:prompt start, victim died at place from medicalissue, killed by killer ,end
+life.injure.n/a:prompt start, victim was injured by injurer with medicalissue at place ,end
+life.injure.illnessdegradationhungerthirst:prompt start, victim has extreme hunger or thirst from medicalissue imposed by injurer at place ,end
+life.injure.illnessdegradationphysical:prompt start, victim person has some physical degradation from medicalissue imposed by injurer at place ,end
+life.injure.illnessdegredationsickness:prompt start, victim has disease sickness or illness at place, deliberately infected by injurer  ,end
+life.injure.injurycausedbyviolentevents:prompt start, injurer injured victim using instrument or medicalissue at place ,end
+manufacture.artifact.n/a:prompt start, manufacturer manufactured or created or produced artifact using instrument at place ,end
+manufacture.artifact.build:prompt start, manufacturer manufactured or created or produced artifact using instrument at place ,end
+manufacture.artifact.createintellectualproperty:prompt start, manufacturer manufactured or created or produced artifact using instrument at place ,end
+manufacture.artifact.createmanufacture:prompt start, manufacturer manufactured or created or produced artifact using instrument at place ,end
+medical.intervention.intervention:prompt start, treater treated patient for medicalissue with instrument means at place ,end
+movement.transportartifact.n/a:prompt start, transporter transported artifact in vehicle from origin place to destination place ,end
+movement.transportartifact.bringcarryunload:prompt start, transporter transported artifact in vehicle from origin place to destination place ,end
+movement.transportartifact.disperseseparate:prompt start, transporter transported artifact in vehicle from origin place to destination place ,end
+movement.transportartifact.fall:prompt start, artifact fell from origin place to destination place ,end
+movement.transportartifact.grantentry:prompt start, transporter grants artifact entry to origin place from destination place ,end
+movement.transportartifact.hide:prompt start, transporter concealed artifact in hidingplace, transported in vehicle vehicle from origin place ,end
+movement.transportartifact.lossofcontrol:prompt start, controller lost control of moving controlledthing at place ,end
+movement.transportartifact.nonviolentthrowlaunch:prompt start, transporter transported artifact in vehicle from origin place to destination place ,end
+movement.transportartifact.prevententry:prompt start, preventer prevents transporter from transporting artifact from origin place to destination place ,end
+movement.transportartifact.preventexit:prompt start, preventer prevents transporter from transporting artifact from origin place to destination place ,end
+movement.transportartifact.receiveimport:prompt start, transporter transported artifact in vehicle from origin place to destination place ,end
+movement.transportartifact.sendsupplyexport:prompt start, transporter transported artifact in vehicle from origin place to destination place ,end
+movement.transportartifact.smuggleextract:prompt start, transporter transported artifact in vehicle from origin place to destination place ,end
+movement.transportperson.n/a:prompt start, transporter transported passenger in vehicle from origin place to destination place ,end
+movement.transportperson.bringcarryunload:prompt start, transporter transported passenger in vehicle from origin place to destination place ,end
+movement.transportperson.disperseseparate:prompt start, transporter transported passenger in vehicle from origin place to destination place ,end
+movement.transportperson.evacuationrescue:prompt start, transporter transported passenger in vehicle from origin place to destination place ,end
+movement.transportperson.fall:prompt start, passenger fell from origin place to destination place ,end
+movement.transportperson.grantentryasylum:prompt start, granter grants entry to transporter transporting passenger from origin place to destination place ,end
+movement.transportperson.hide:prompt start, transporter concealed passenger in hidingplace, transported in vehicle from origin place ,end
+movement.transportperson.prevententry:prompt start, preventer prevents transporter from transporting passenger from origin place to destination place ,end
+movement.transportperson.preventexit:prompt start, preventer prevents transporter from transporting passenger from origin place to destination place ,end
+movement.transportperson.selfmotion:prompt start, transporter moved in vehicle from origin place to destination place ,end
+movement.transportperson.smuggleextract:prompt start, transporter transported passenger in vehicle from origin place to destination place ,end
+personnel.elect.n/a:prompt start, voter elected candidate in place ,end
+personnel.elect.winelection:prompt start, voter elected candidate in place ,end
+personnel.endposition.n/a:prompt start, employee stopped working at placeofemployment in place ,end
+personnel.endposition.firinglayoff:prompt start, employee stopped working at placeofemployment in place ,end
+personnel.endposition.quitretire:prompt start, employee stopped working at placeofemployment in place ,end
+personnel.startposition.n/a:prompt start, employee started working at placeofemployment in place ,end
+personnel.startposition.hiring:prompt start, employee started working at placeofemployment in place ,end
+transaction.transaction.n/a:prompt start, A transaction occurred between participant and participant for the benefit of beneficiary at place ,end
+transaction.transaction.embargosanction:prompt start, preventer prevented giver from giving artifactmoney to recipient at place ,end
+transaction.transaction.giftgrantprovideaid:prompt start, giver gave something to recipient for the benefit of beneficiary at place ,end
+transaction.transfermoney.n/a:prompt start, giver gave money money to recipient for the benefit of beneficiary at place ,end
+transaction.transfermoney.borrowlend:prompt start, giver gave money money to recipient for the benefit of beneficiary at place ,end
+transaction.transfermoney.embargosanction:prompt start, preventer prevented giver from giving money to recipient at place ,end
+transaction.transfermoney.giftgrantprovideaid:prompt start, giver gave money money to recipient for the benefit of beneficiary at place ,end
+transaction.transfermoney.payforservice:prompt start, giver gave money money to recipient for the benefit of beneficiary at place ,end
+transaction.transfermoney.purchase:prompt start, giver gave money money to recipient for the benefit of beneficiary at place ,end
+transaction.transferownership.n/a:prompt start, giver gave artifact to recipient for the benefit of beneficiary at place ,end
+transaction.transferownership.borrowlend:prompt start, giver gave artifact to recipient for the benefit of beneficiary at place ,end
+transaction.transferownership.embargosanction:prompt start, preventer prevented giver from giving artifact to recipient at place ,end
+transaction.transferownership.giftgrantprovideaid:prompt start, giver gave artifact to recipient for the benefit of beneficiary at place ,end
+transaction.transferownership.purchase:prompt start, giver gave artifact to recipient for the benefit of beneficiary at place ,end
+transaction.transaction.transfercontrol:prompt start, giver transferred control of territoryorfacility to recipient for the benefit of beneficiary in place ,end
