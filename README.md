@@ -147,10 +147,22 @@ Note you could adjust the `KEEP_RATIO` value by yourself.
 ## Citation
 Please cite our paper if you use PAIE in your work:
 ```bibtex
-@article{ma2022prompt,
-  title={Prompt for Extraction? PAIE: Prompting Argument Interaction for Event Argument Extraction},
-  author={Ma, Yubo and Wang, Zehao and Cao, Yixin and Li, Mukai and Chen, Meiqi and Wang, Kun and Shao, Jing},
-  booktitle={Association for Computational Linguistics (ACL)},
-  year={2022}
+@inproceedings{ma-etal-2022-prompt,
+    title = "{P}rompt for Extraction? {PAIE}: {P}rompting Argument Interaction for Event Argument Extraction",
+    author = "Ma, Yubo  and
+      Wang, Zehao  and
+      Cao, Yixin  and
+      Li, Mukai  and
+      Chen, Meiqi  and
+      Wang, Kun  and
+      Shao, Jing",
+    booktitle = "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.acl-long.466",
+    doi = "10.18653/v1/2022.acl-long.466",
+    pages = "6759--6774",
 }
 ```
